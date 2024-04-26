@@ -1,4 +1,8 @@
 ---
 
-apache_package_name: httpd
-apache_service_name: httpd
+
+# Contenu du fichier web_server_vars.yml
+server_name: "my server mayssa"
+
+
+
