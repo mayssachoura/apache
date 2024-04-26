@@ -28,7 +28,8 @@
     service: https
     permanent: true
     state: enabled
-  when: inventory_hostname in groups['web']
+  when: inventory_hostname == "hosts"
+
   notify: Reload Firewall
 
 - name: Deploy custom index.html
